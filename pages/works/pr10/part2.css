@@ -1,0 +1,81 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section{
+    display: inline-block;
+    
+}
+h3{
+    font-size: 40px;
+    color: rgb(53, 53, 53);
+    margin-top: 0;
+}
+article{
+    width: 11400px;
+    padding-bottom: 20px;
+}
+.art1{
+    margin-top: 140px;
+}
+.art3{
+    width: 1505px;
+}
+article:nth-child(3){
+    background: linear-gradient(75.91deg, rgba(50,34,67,0.8) 15.12%, rgba(50,34,67,0) 95.53%), url(img/фон.jfif);
+    color: rgb(170, 170, 170);
+    background-size: cover;
+
+}
+.img1{
+    background:  url(img/косметика.jfif);
+    background-size: cover;
+    height: 250px;
+    width: 200px;
+    display: inline-block;
+}
+.img2{
+    background: url(img/парфюмерия.jfif);
+    background-size: cover;
+    height: 250px;
+    width: 200px;
+    display: inline-block;
+}
+span{
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 50px;
+}
+.class1{
+    display: inline-block;
+    margin: 60px 60px 60px 200px;
+    text-align: center;
+    
+}
+.class2{
+    display: inline-block;
+    margin: 60px;
+    text-align: center;
+}
+.class3{
+    display: inline-block;
+    margin: 60px;
+    text-align: center;
+}
+.bl1{
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+    margin-left: 210px;
+    vertical-align: top;
+}
+.bl2{
+    display: inline-block;
+    width: 400px;
+    margin: 0 20px 0 20px;
+    text-align: justify;
+}
+p{
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    
+}
