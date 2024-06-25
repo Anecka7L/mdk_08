@@ -1,0 +1,141 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: aliceblue;
+}
+.wrapper{
+    width: 1080px;
+    height: 1733px;
+    margin: 0 auto;
+}
+.regis{
+    background: url(img/125.png);
+    width: 1080px;
+    height: 345px;
+    margin: 0 auto;
+    background-size: cover;
+}
+.trupolos{
+background: url(img/103.png);
+margin: 30px 0 0 50px;
+float: left;
+width: 55px;
+height: 49px;
+background-size: cover;
+}
+.dev{
+    background: url(img/101.png);
+    margin: 30px 30px 0 0;
+    float: right;
+    width: 64px;
+    height: 61px;
+    background-size: cover;
+}
+.lupa{
+    background: url(img/102.png);
+    margin: 30px 30px 0 0;
+    float: right;
+    width: 64px;
+    height: 61px;
+    background-size: cover;
+}
+article h1{
+    font-size: 85px;
+    color: aliceblue;
+    margin: 130px 0 0 50px;
+}
+section{
+    display: inline-block;
+}
+.class1{
+    
+    margin: 30px 170px 20px 30px;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 5px solid #b02626;  
+    margin-left: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.class2{
+    
+    margin: 30px 170px 20px 30px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.class3{
+    
+    margin: 30px 60px 20px 30px;
+    text-align: center;
+    font-size: 25px;
+}
+.polocik{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: grid;
+    grid-template-columns: 351px  351px 351px;
+    grid-template-rows: 468px 468px 468px;
+    gap: 5px;
+    margin-top: 5px;
+    margin: 5px 5px 0 5px;
+}
+.tem1{
+    background: url(img/121.png) ;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    width: 351px;
+    height: 468px;
+}
+.tem2{
+    background: url(img/122.png);
+    background-size: cover;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    width: 351px;
+    height: 468px;
+}
+.tem3{
+    background: url(img/123.png);
+    background-size: cover;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    width: 351px;
+    height: 468px;
+}
+.tem4{
+    background: url(img/128.png);
+    background-size: cover;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    width: 351px;
+    height: 468px;
+}
+.tem5{
+    background: url(img/124.png);
+    background-size: cover;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    width: 708px;
+    height: 468px;
+}
+.tem6{
+    background: url(img/127.png);
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    width: 708px;
+    height: 468px;
+}
+.tem7{
+    background: url(img/126.png);
+    background-size: cover;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    width: 351px;
+    height: 468px;
+}

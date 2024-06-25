@@ -1,0 +1,472 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+    
+    
+/* голова */
+.menu li{
+    display: inline-block;
+    padding: 15px;
+    
+}
+.menu{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-right: 555px;
+    margin-left: 155px;
+}
+.menu li:hover{
+    color: rgb(1, 44, 38);
+}
+.head{
+    text-align: left;
+    color: aliceblue;
+    margin-left: 65px;
+}
+.head h1{
+    font-size: 60px;
+    margin-left: 65px;
+}
+.now{
+    background-color: aliceblue;
+    color:  rgb(20, 1, 73);
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin-left: 65px;
+    margin-top: 35px;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+.now:hover{
+    background-color: rgb(20, 1, 73);
+    color:  rgb(255, 255, 255);
+}
+.free{
+    background-color: aliceblue;
+    color:  rgb(20, 1, 73);
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 35px;
+    border-radius: 5px;
+    border-radius: 10px;
+}
+.free:hover{
+    background-color: rgb(20, 1, 73);
+    color:  rgb(255, 255, 255);
+}
+.button{
+    display: flex;
+
+}
+.parents{
+    display: flex;
+}
+
+/* .div2{
+    display: flex;
+} */
+nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+   
+}
+.dart p{
+    margin: 2px;
+    color: aliceblue;
+}
+.logo1{
+    margin-left: 65px;
+    margin-right: 5px;
+}
+.up{
+text-align: center;
+justify-content: right;
+background-color: rgba(0, 255, 255, 0.21);
+color: aliceblue;
+padding: 5px;
+border-radius: 10px;
+}
+/* голова */
+/* первый контейнер */
+.hh1{
+text-align: center;
+font-size: 55px;
+margin-bottom: 10px;
+margin-top: 90px;
+display: block;
+        
+        
+}
+.hh3{
+    margin-top: 0;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(176, 176, 176);
+    margin-bottom: 10px;
+    display: block;
+        
+        margin: 0 auto;
+}
+.pp1{
+   
+    text-align: center;
+    font-size: 15px;
+    color: rgb(176, 176, 176);
+    margin: 0 550px;
+    display: block;
+}
+.ee1{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.art1{
+text-align: center;
+width: 400px;
+margin-right: 50px;
+display: block;
+/* margin: 0 auto; */
+}
+.art1 h3{
+   font-size: 25px;
+}
+.art1 p{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(176, 176, 176);
+}
+.card1{
+background: url(img16/icon1.png);
+width: 68px;
+height: 70px;
+margin-left: 150px;
+/* justify-content: center; */
+}
+.art2{
+    text-align: center;
+    width: 400px;
+    margin-right: 50px;
+    display: block;
+    /* margin: 0 auto; */
+    }
+    .art2 h3{
+       font-size: 25px;
+    }
+    .art2 p{
+        text-align: center;
+        font-size: 15px;
+        color: rgb(176, 176, 176);
+    }
+    .card2{
+    background: url(img16/icon2.png);
+    width: 68px;
+    height: 70px;
+    margin-left: 150px;
+    /* justify-content: center;
+    display: flex; */
+    }
+    .art3{
+        /* display: inline-block; */
+        text-align: center;
+        width: 400px;
+        margin-right: 50px;
+        display: block;
+        
+        margin: 0 auto;
+        }
+        .art3 h3{
+           font-size: 25px;
+        }
+        .art3 p{
+            text-align: center;
+            font-size: 15px;
+            color: rgb(176, 176, 176);
+        }
+        .card3{
+        background: url(img16/icon3.png);
+        width: 68px;
+        height: 70px;
+        margin-left: 150px;
+        /* display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        align-content: flex-start;
+        justify-content: space-evenly; */
+        /* justify-content: center; */
+        }
+        section button{
+        text-align: center;
+        padding: 15px;
+        color: aliceblue;
+        background-color: rgb(0, 222, 148);
+        margin-top: 20px;
+        display: block;
+        margin: 25px auto;
+        /* margin-left: 700px; */
+        border-radius: 10px;
+        }
+/* первый контейнер */
+/* второй контейнер */
+.sec1{
+    margin-bottom: 0;
+}
+.head h3{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.head p{
+    font-size: 15px;
+}
+.button .no{
+        background-color: aliceblue;
+        color:  rgb(20, 1, 73);
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        margin-left: 65px;
+        margin-top: 35px;
+        border-radius: 5px;
+        border-radius: 10px;
+}
+.no:hover{
+        background-color: rgb(20, 1, 73);
+        color:  rgb(255, 255, 255);
+    }
+.i1mm{
+    background: url(../pr16/img16/keyboard_arrow_up.png);
+    width: 23px;
+    height: 14px;
+}
+.i2mm{
+    background: url(../pr16/img16/Ellipse2.png);
+    width: 76px;
+    height: 76px;
+}
+.div2{
+    margin-top: 20px;
+}
+.div3 p{
+    margin-left: 10px;
+background-color: aliceblue;
+font-size: 15px;
+color: black;
+width: 550px;
+border-radius: 5px;
+padding: 10px;
+}
+.rod .div0{
+    display: block;
+    margin: 15px 450px;
+}
+/* .div0
+{
+    display: block;
+    margin: auto;
+    justify-content: center;
+} */
+.inl2{
+    display: flex;
+    margin-top: 95px;
+    margin-left: 155px;
+}
+.i3mm{
+    background: url(../pr16/img16/keyboard_arrow_down.png);
+    width: 23px;
+    height: 14px;
+}
+.i4mm{
+    background: url(../pr16/img16/Ellipse3.png);
+    width: 76px;
+    height: 76px;
+}
+.div6 p{
+    margin-left: 10px;
+background-color: aliceblue;
+font-size: 15px;
+color: black;
+width: 550px;
+border-radius: 5px;
+padding: 10px;
+}
+.div5{
+    margin-top: 20px;
+}
+.inl5{
+    display: flex;
+    margin-top: 45px;
+    margin-left: 155px;
+}
+.rod .div4{
+    display: block;
+    margin: 100px 450px;
+}
+/* второй контейнер */
+/* третий контейнер */
+.ppp1{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(110, 110, 110);
+    margin: 0 550px;
+    display: block;
+}
+/* форма */
+form{
+    margin-top: 25px;
+}
+ form .a1{
+    display: flex;
+    justify-content: center;
+    
+ }
+.p1p{
+    margin-right: 25px;
+}
+form .a2{
+    display: flex;
+    justify-content: center;
+    
+}
+.p2p{
+    margin-right: 25px;
+}
+form .a3{
+    display: flex;
+    justify-content: center;
+    
+}
+form .a4{
+    display: flex;
+    justify-content: center;
+    
+}
+form .a5{
+    display: flex;
+    justify-content: right;
+    margin-right: 530px;
+}
+.a5 input{
+    color: aliceblue;
+    background-color: aqua;
+    width: 155px;
+}
+form input{
+    border-radius: 5px;
+    height: 50px;
+border-color: black;
+}
+/* форма */
+/* третий контейнер */
+/* подвал */
+.footer{
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
+.footer p{
+    display: inline-block;
+    padding: 25px;
+    font-size: small;
+    
+
+}
+.help{
+    margin-right: 25px;
+}
+.footer2 p{
+    display: inline-block;
+    padding: 10px;
+    font-size: small;
+    color: rgb(176, 176, 176);
+}
+.footer3{
+    display: flex;
+    float: right;
+    
+}
+.ig1{
+    background: url(img16/facebook.png);
+    width: 18px;
+    height: 18px;
+    margin: 15px;
+}
+.ig2{
+    background: url(img16/twitter.png);
+    width: 17px;
+    height: 16px;
+    margin: 15px;
+}
+.ig3{
+    background: url(img16/in.png);
+    width: 18px;
+    height: 18px;
+    margin: 15px;
+}
+.ig4{
+    background: url(img16/bro.png);
+    width: 18px;
+    height: 18px;
+    margin: 15px;
+}
+.ig5{
+    background: url(img16/behance.png);
+    width: 24px;
+    height: 16px;
+    margin: 15px;
+    margin-right: 55px;
+}
+.PrivecyPolicy{
+    margin-left: 65px;
+}
+.dart2 p{
+    color: aliceblue;
+    margin-right: 800px;
+}
+.logo2{
+    margin-left: 65px;
+    margin-right: 15px;
+   
+    
+}
+.parents2{
+    display: flex;
+    padding-top: 35px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* подвал */
+
+/* контейнеры фон */
+.contener{
+    width: 1600px;
+    height: 750px;
+    margin: 0 auto;
+}
+header .contener{
+    background: url(..//pr16/img16/BG.png);
+}
+
+footer .contener{
+    background-color: rgb(20, 1, 73);
+    height: 250px;
+}
+.contener2 .sec1{
+    background: url(..//pr16/img16/BG2.png);
+    width: 1599px;
+    height: 564px;
+    margin: 0 auto;
+}
+/* .contener .sec22{
+    background-color: aliceblue;
+    width: 1600px;
+    height: 564px;
+} */
+/* контейнеры фон */
+
+
+
+

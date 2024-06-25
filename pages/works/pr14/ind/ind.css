@@ -1,0 +1,20 @@
+body{
+    color: #fff;
+    font: 600 24px;
+}
+.boxx{
+    background: #b32d82;
+    border-radius: 6px;
+    
+    height: 95px;
+    line-height: 95px;
+    text-align: center;
+   
+    transition-duration: 1s;
+    transition-delay: 1s;
+    width: 95px;
+    
+}
+.boxx:hover{
+    transform: scale(1.5);
+}

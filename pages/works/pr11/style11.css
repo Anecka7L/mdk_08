@@ -1,0 +1,225 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+}
+section article{
+    width: 320px;
+    margin: 5px;
+}
+
+section article p{
+    font-size: small;
+    color: rgb(39, 39, 39);
+    margin: 3px 0 0 0 ;
+}
+section article .img{
+    width: 80%;
+    height: 200px;
+    background: url("../../../img/эмэмдемс2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+section article .img1{
+    width: 80%;
+    height: 200px;
+    background: url("../../../img/печенье.jpg");
+    background-size: cover;
+    background-position: center;
+}
+section article .img2{
+    width: 80%;
+    height: 200px;
+    background: url("../../../img/эмэмдемс.jpg");
+    background-size: cover;
+    background-position: center;
+}
+section article .img3{
+    width: 80%;
+    height: 200px;
+    background: url("../../../img/пастила.jpg");
+    background-size: cover;
+    background-position: center;
+}
+section article .img4{
+    width: 80%;
+    height: 200px;
+    background: url("../../../img/пастила2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+section article .img5{
+    width: 80%;
+    height: 200px;
+    background: url("../../../img/шоколад.jpg");
+    background-size: cover;
+    background-position: center;
+}
+section article .img6{
+    width: 80%;
+    height: 200px;
+    background: url("../../../img/щоколад2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+section article .img7{
+    width: 80%;
+    height: 200px;
+    background: url("../../../img/шоколад3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+section article .price{
+    margin: 25px 0 0 0;
+    font-weight: bold;
+
+}
+.xit{
+    display: inline-block;
+    /* float: left; */
+    margin: 10px 10px 0 10px;
+    color: white;
+    background-color: rgb(0, 183, 255);
+    padding: 5px;
+    
+    border-radius: 5px;
+    
+}
+.xit1{
+    display: inline-block;
+    /* float: left; */
+    margin: 10px 10px 0 10px;
+    color: white;
+    background-color: rgb(255, 0, 98);
+    padding: 5px;
+    
+    border-radius: 5px;
+    
+}
+.xit2{
+    display: inline-block;
+    /* float: left; */
+    margin: 10px 10px 0 10px;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    
+    border-radius: 5px;
+    
+}
+.price1{
+    background-color: rgb(255, 0, 98);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    width: 90px;
+    padding-left: 5px;
+    margin-top: 25px;
+}
+.xitt{
+    
+    float: right;
+    margin: 5px 10px 0 10px;
+    color: white;
+    padding: 10px;
+    
+    
+}
+.sale{
+    /* display: inline-block; */
+    /* float: left; */
+    margin: 110px 10px 0 10px;
+    color: white;
+    background-color: rgb(255, 0, 98);
+    padding: 5px;
+    width: 50px;
+    border-radius: 5px;
+}
+.sale1{
+    /* display: inline-block; */
+    /* float: left; */
+    margin: 130px 10px 0 10px;
+    color: white;
+    background-color: rgb(255, 0, 98);
+    padding: 5px;
+    width: 50px;
+    border-radius: 5px;
+}
+/* .xxitt{
+    
+    /* float: right; */
+   /* margin-left: 150px;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px; */
+    
+    
+    
+/* } */
+/* звезды */
+.rt{
+    display: flex;
+    font-size: 0;
+}
+.rt span{
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: aliceblue;
+}
+.rt > span:before{
+content:'☆' ;
+
+}
+.rt > span.zvezda{
+    
+    color: gold;
+}
+/*  */
+.sms{
+    display: inline-block;
+    font-size: 0;
+}
+.sms span {
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    color: aliceblue;
+}
+.sms > span:before{
+content:'✉︎' ;
+}
+.sms > span.soo{
+    color: grey;
+}
+/* кнопка */
+.c-button {
+    display: block;
+    background: rgb(30, 27, 199);
+    color: #fff;
+    padding: 5px 12px;
+    font-size: 12px;
+    margin: 30px 0 0 0;
+    border-radius: 5px;
+  }
+  /* кнопка */
+  .c-button:hover {
+    background: rgb(15, 13, 117);
+  }
+ span.kr{
+    color: blue;
+ }
+ .best{
+color: rgb(255, 183, 0);
+
+ }
+ .txt{
+   color: rgb(78, 78, 98);
+ }
+ span.kr1{
+    color: rgb(121, 121, 121);
+ }
+

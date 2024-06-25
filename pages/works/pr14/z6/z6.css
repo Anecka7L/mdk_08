@@ -1,0 +1,27 @@
+
+@keyframes slide{
+    0% {left: 0;
+        right: 0;
+    }
+   
+    100% {left: 200px;
+        right: 200px;
+    }
+}
+
+.sql:hover{
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: .5s;
+}
+.sql{
+    background: #2db34a;
+    border-radius: 0%;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+}
+figure{
+    margin: 0;
+}
